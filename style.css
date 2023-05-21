@@ -1,0 +1,149 @@
+*{
+    margin:0;font-family: helvetica;display: flexbox;vertical-align: baseline;
+}
+#header{
+    margin-top: 1rem;
+    padding: 2rem;
+}
+.title{
+    margin-top: 1rem;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: #1c2121;
+    color:#d9dbdb;
+    font-size: larger;
+    width: 250px;
+    text-align: center;
+    padding: 1rem;
+    margin-left: 30px;
+}
+.menu{
+    box-sizing: border-box;
+    margin-left: 30px;
+    padding: 3rem;
+}
+.menu ul li{
+    display: inline;
+    list-style: none;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #1c2121;
+    color: #d9dbdb;
+    text-align: center;
+    width: 200px;
+    font-size: large;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+.menu ul li:hover{
+    color:#1c2121;
+    background-color: #d9dbdb;
+    box-shadow:1px 1px 1px 1px #1c2121;
+}
+/*link um*/
+a.linkum:link {
+    color:#d9dbdb;
+    text-decoration:none;
+  }
+  a.linkum:visited {
+    color:#d9dbdb;
+    text-decoration:none;
+  }
+  a.linkum:hover {
+    color:#1c2121;
+    text-decoration:underline;
+  }
+  /*link dois*/
+  a.linkdois:active {
+    color:#d9dbdb;
+    text-decoration:underline;
+    background-color:#1c2121;
+  }
+  a.linkdois:link {
+    color:#d9dbdb;
+    text-decoration:none;
+  }
+  a.linkdois:visited {
+    color:#d9dbdb;
+    text-decoration:none;
+  }
+  a.linkdois:hover {
+    color:#1c2121;
+    text-decoration:underline;
+  }
+  a.linkdois:active {
+    color:#d9dbdb;
+    text-decoration:underline;
+    background-color:#1c2121;
+  }
+  /*Link tres*/
+  a.linktres:link {
+    color:#d9dbdb;
+    text-decoration:none;
+  }
+  a.linktres:visited {
+    color:#d9dbdb;
+    text-decoration:none;
+  }
+  a.linktres:hover {
+    color:#1c2121;
+    text-decoration:underline;
+  }
+  a.linktres:active {
+    color:#d9dbdb;
+    text-decoration:underline;
+    background-color:#1c2121;
+  }
+  /*link quatro*/
+  a.linkquatro:link {
+    color:#d9dbdb;
+    text-decoration:none;
+  }
+  a.linkquatro:visited {
+    color:#d9dbdb;
+    text-decoration:none;
+  }
+  a.linkquatro:hover {
+    color:#1c2121;
+    text-decoration:underline;
+  }
+  a.linkquatro:active {
+    color:#d9dbdb;
+    text-decoration:underline;
+    background-color:#1c2121;
+  }
+#section{
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 450px;
+    border-style: outset;
+    margin-top: 5rem;
+    padding: 1rem;
+    font-size: medium;
+    margin-left: 30px;
+    color: #1c2121;
+}
+.txt img{
+    padding-right: 20rem;
+    margin-top: 1rem;
+    margin-left: 30px;
+}
+.txt{
+    padding-top: 3rem;
+    margin-block-end: 1rem;
+    margin-left: 45px;
+    font-size: medium;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border-color: #1c2121;
+    border-radius: 50px;
+
+}
+#footer{
+    margin-top: 25rem;
+    padding: 3rem;
+    box-sizing: border-box;
+    background-color: #1c2121;
+    color: #d9dbdb;
+    font-size: medium;
+}
